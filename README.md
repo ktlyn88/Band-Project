@@ -1,3 +1,2 @@
 # Band-Project
-First site project for a band.
-second comit
+First site project created for Paul Tihan band.
