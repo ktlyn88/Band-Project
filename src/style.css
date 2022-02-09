@@ -3,14 +3,87 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(218, 231, 231);
+}
+.header-section {
+    
+    width: 100%;
+
+    padding-bottom: 2em;
+}
+.header-section nav {
+    display: flex;
+    justify-content: space-between;
+}
+.header-section nav h1 {
+    text-transform: uppercase;
+    font-size: 70px;
+    margin-left: 5%;
+}
+.header-section ul {
+    list-style: none;
+    align-items: flex-end;
+    
+}
+a {
+    text-decoration: none;
+}
+.header-section ul li {
+    
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 35px;
+
+}
+.background {
+background-image: linear-gradient(0deg,
+rgba(49, 17, 35, 0.548),
+rgba(20, 8, 15, 0.568)), url(../assets/images/cover.jpg);
+
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 40%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Video Slider CSS: */
 .videos {
-    width: 50%;
+    width: 60%;
     height: 50vh;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: black;
+    margin: auto;
 }
 .videos .slider {
     position: absolute;
