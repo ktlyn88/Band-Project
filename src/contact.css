@@ -5,17 +5,24 @@ main {
 background-image: linear-gradient(0deg,
 rgba(0, 0, 0, 0.548),
 rgba(20, 8, 15, 0.568)), url(../assets/images/contact.jpeg);
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
-    height: 40em;
-    display: block;
+    height: 50em;
+    display: flex;
+    justify-content: center;
+}
+.fundal-contact h1 {
+   position: fixed;
+   top: 14em;
+   font-size: 35px;
 }
 article {
     background-color: rgb(0, 0, 0);
     display: flex;
+    justify-content: space-between;
     
 }
 h1, h3 {
@@ -24,60 +31,71 @@ h1, h3 {
 p {
     font-weight: 600;
 }
-/* h1 */
-
-article .contact-container {
+article {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* margin: 10em auto 10em auto; */
+    padding: 4em 0 4em;
 }
-
-
-
-
-article .social-media ul{
+article .management {
+    padding-left: 7em;   
+}
+article .social-media {
+    padding-right: 7em;
+}
+article .social-media ul {
     list-style: none;
-    display: flex;
-    gap: 1em;
-    
-}
-
-
-img {
-    width: 3em;
-    opacity: 0.7;
-}
-img:hover {
-    transition: 0.9s;
-    width: 3.5em;
-    opacity: 1;
-}
-
-
-/* .container .logo-social {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 6em 0 6em;
-}
-.container .logo-social img {
-    width: 20px;
-} */
-/* .container ul {
     display: flex;
     justify-content: center;
-    list-style: none;
     gap: 1em;
 }
-.container ul li {
-    opacity: 0.6;
+.contact-article p {
+    padding: 0.5em;
+    margin: 0.5em;
+}
+.social-media h3 {
+    padding: 0 0 3em 0;
+}
+article .social-media ul li {
+    opacity: 0.7;
     transition: 0.5s;
+    position: relative;
 }
-.container ul li:hover {
+article .social-media ul li:hover {
     opacity: 1;
-    transform : scale(1.5)
+    top: -10px;
 }
-.container p {
-    font-size: 0.7em; 
-} */
+img {
+    width: 3em;
+    transition: 0.6s;
+}
+@media screen and (max-width: 870px) {
+    article .management {
+        padding-left: 0.5em;   
+    }
+    article .social-media {
+        padding-right: 0.5em;
+    }
+}
+@media screen and (max-width: 600px) {
+    article  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2em;  
+    }
+    .management, .social-media {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .management :first-child {
+        padding-bottom: 1em;
+    }
+    .management .band-info {
+        padding-top: 1em;
+    }
+    .fundal-contact h1 {
+        position: relative;
+ }
+}
