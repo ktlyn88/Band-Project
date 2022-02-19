@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Paul Tihan - Home</title>
+    <title>Paul Tihan - Account</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,8 +16,8 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
     
-
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="account.css">
     <script src="index.js" defer></script>
 
 </head>
@@ -33,7 +33,7 @@
             <li class="nav-link"><a href="tour-dates.html">tour dates</a></li>
             <li class="nav-link"><a href="contact.html">contact</a></li>
           </ul>
-        
+          
           <div class="icons">
             <button type="button" id="hamburger"><span class="material-icons">menu</span></button>
             <button type="button" id="account"><span class="material-icons">account_circle</span></button>
@@ -43,45 +43,48 @@
       </nav>
   </header>
 
-    <main>
-      <div id="logOutDrop">
-        <h3>Welcome <script>document.write(localStorage.getItem('name'));</script></h3>
-        <button id="logOutBtn">Log Out</button>
-      </div>
-      <!-- ------------------------------------------------------------ -->
-        <section class="background">
-            <p>"Cu picioare stangi <br> Nu stim sa pasim in noi <br> Avem fluturi si o luna <br> Si un destin de promis..."</p>
+
+  
+  <main>
+    <div id="logOutDrop">
+      <h3>Welcome <script>document.write(localStorage.getItem('name'));</script></h3>
+      <button id="logOutBtn">Log Out</button>
+    </div>
+    <!-- ------------------------------------------------------------ -->
+      <section class="backgr-account">
+        <section class="form-container">
+
+          <div class="form-btn">
+              
+              <span onclick="moveLogin()">Login</span>
+              <span onclick="moveRegister()">Register</span>
+              
+              <hr id="Indicator">
+          </div>
+
+          <form onsubmit="logIn()" id="LoginForm" class="forms">
+              <input type="text" name="email" id="logInEmail" placeholder="Email">
+              <input type="password" name="password" id="logInPassword" class="passwrd" placeholder="Password">
+              <button type="submit" id="btnLogin" class="btn">Login</button>
+              <p>Don't have an account?</p><span onclick="moveRegister()">Register</span>
+          </form>
+
+          <form onsubmit="register()" id="RegForm" class="forms">
+              <input type="text" id="firstN" placeholder="First Name">
+              <input type="text" id="lastN" placeholder="Last Name">
+              <input type="email" id="eml" placeholder="Email">
+              <input type="password" id="passw" class="passwrd" placeholder="Password">
+              <input type="text" id="city" placeholder="City">
+              <input type="text" id="country" placeholder="Country">
+              <button type="submit" id="btnRegister" class="btn">Register</button>
+              <p>Already have an account?</p><span onclick="moveLogin()">Login</span>
+          </form>
         </section>
-    
-        
-    
-        <section class="carousel">
-            <img src="" alt="">
-        </section>
-
-        <section class="videos">
-            <iframe class="slider" width="1275" height="711" src="https://www.youtube.com/embed/E3j2bj0XLKc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-            </iframe>       
-            <ul>
-                <li onclick="videoSlider('https://www.youtube.com/embed/E3j2bj0XLKc')"><img src="../assets/videos/luna-pe-piele.JPG"></img></li>
-                <li onclick="videoSlider('https://www.youtube.com/embed/yCiNE2HwbuY')"><img src="../assets/videos/atat-de-simplu.JPG"></img></li>
-                <li onclick="videoSlider('https://www.youtube.com/embed/16X0g0iucAI')"><img src="../assets/videos/margini-de-ziua.JPG"></img></li>
-                <li onclick="videoSlider('https://www.youtube.com/embed/gd2j8GtHC8k')"><img src="../assets/videos/spune-ceva.JPG"></img></li>
-                <li onclick="videoSlider('https://www.youtube.com/embed/nOtk7WMkJUo')"><img src="../assets/videos/culorile-tale.JPG"></img></li>
-            </ul>
-        </section>
-
-    </main>
-
-    
-    <aside>
-        <h2>follow Paul Tihan band on instagram</h2>
-        <a href="https://instagram.com/paul.tihan?utm_medium=copy_link" target="_blank">
-            <img src="../assets/images/insta.png" width="14px" alt="instagram logo">
-            more from instagram</a>
-    </aside>
 
 
+        </div>
+    </section>
+  </main>
 
 
     <footer>
@@ -118,6 +121,6 @@
 
     </footer>
 
-
+</script>
 </body>
 </html>

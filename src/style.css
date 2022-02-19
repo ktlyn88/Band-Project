@@ -155,11 +155,11 @@ rgba(20, 8, 15, 0.568)), url(../assets/images/cover.jpg);
 /* aside */
 /* ------------------------------------------------------------------------- */
 aside {
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-margin: 3.5em 0 3.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 3.5em 0 3.5em;
 }
 aside h2, a {
     text-transform: uppercase;
@@ -263,9 +263,6 @@ footer {
     #nav-ul li a {
         font-size: 2rem;
     }
-    /* .header-section {
-        opacity: 0.9;
-    } */
 
     /* ************************************* */
     .videos ul li img {
@@ -367,4 +364,47 @@ footer {
     .videos ul {
     margin-top: 60%;
     }
+}
+
+/* ******************************************************************** */
+/* Accout Dropdown */
+
+#logOutDrop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    gap: 2em;
+    position: fixed;
+    width: 13em;
+    height: 10em;
+    background-color: black;
+    color: white;
+    right: 9em;
+    border-radius: 15px;
+    z-index: 2;
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+}
+#logOutDrop.active {
+    opacity: 0.7;
+    visibility: visible;
+}
+#logOutDrop.inactive {
+    opacity: 0;
+    visibility: hidden;
+}
+#logOutBtn {
+    transition: 0.5s;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+#logOutBtn:hover {
+    background-color: red;
+    color: white;
+    opacity: 0.7;
+    
 }

@@ -18,7 +18,7 @@
     
 
     <link rel="stylesheet" href="style.css">
-    <script src="index.js" defer></script>
+    <script type="text/javascript" src="index.js" defer></script>
 
 </head>
 <body>
@@ -44,28 +44,36 @@
   </header>
 
     <main>
-        <section class="background">
-            <p>"Cu picioare stangi <br> Nu stim sa pasim in noi <br> Avem fluturi si o luna <br> Si un destin de promis..."</p>
-        </section>
-    
+      <div id="logOutDrop">
+        <h3>Welcome <script>document.write(localStorage.getItem('name'));</script></h3>
+        <button id="logOutBtn">Log Out</button>
+      </div>
+      <!-- ------------------------------------------------------------ -->
+      <section class="background">
+          <p>"Cu picioare stangi <br> Nu stim sa pasim in noi <br> Avem fluturi si o luna <br> Si un destin de promis..."</p>
+      </section>
+  
+      <section class="carousel">
+          <img src="" alt="">
+
+      </section>
+      <section class="videos">
+          <iframe class="slider" width="1275" height="711" src="https://www.youtube.com/embed/E3j2bj0XLKc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+          </iframe>       
+          <ul>
+              <li onclick="videoSlider('https://www.youtube.com/embed/E3j2bj0XLKc')"><img src="../assets/videos/luna-pe-piele.JPG"></img></li>
+              <li onclick="videoSlider('https://www.youtube.com/embed/yCiNE2HwbuY')"><img src="../assets/videos/atat-de-simplu.JPG"></img></li>
+              <li onclick="videoSlider('https://www.youtube.com/embed/16X0g0iucAI')"><img src="../assets/videos/margini-de-ziua.JPG"></img></li>
+              <li onclick="videoSlider('https://www.youtube.com/embed/gd2j8GtHC8k')"><img src="../assets/videos/spune-ceva.JPG"></img></li>
+              <li onclick="videoSlider('https://www.youtube.com/embed/nOtk7WMkJUo')"><img src="../assets/videos/culorile-tale.JPG"></img></li>
+          </ul>
+      </section>
         
-    
-        <section class="carousel">
-            <img src="" alt="">
-        </section>
+<!-- ************************************************************************************* -->
 
-        <section class="videos">
-            <iframe class="slider" width="1275" height="711" src="https://www.youtube.com/embed/E3j2bj0XLKc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-            </iframe>       
-            <ul>
-                <li onclick="videoSlider('https://www.youtube.com/embed/E3j2bj0XLKc')"><img src="../assets/videos/luna-pe-piele.JPG"></img></li>
-                <li onclick="videoSlider('https://www.youtube.com/embed/yCiNE2HwbuY')"><img src="../assets/videos/atat-de-simplu.JPG"></img></li>
-                <li onclick="videoSlider('https://www.youtube.com/embed/16X0g0iucAI')"><img src="../assets/videos/margini-de-ziua.JPG"></img></li>
-                <li onclick="videoSlider('https://www.youtube.com/embed/gd2j8GtHC8k')"><img src="../assets/videos/spune-ceva.JPG"></img></li>
-                <li onclick="videoSlider('https://www.youtube.com/embed/nOtk7WMkJUo')"><img src="../assets/videos/culorile-tale.JPG"></img></li>
-            </ul>
-        </section>
 
+
+<!-- ************************************************************************************* -->
     </main>
 
     
@@ -115,4 +123,5 @@
 
 
 </body>
+
 </html>
