@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Paul Tihan - Home</title>
+    <title>Paul Tihan - Official Page</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,7 +18,8 @@
     
 
     <link rel="stylesheet" href="style.css">
-    <script src="index.js" defer></script>
+    <script type="text/javascript" src="index.js" defer></script>
+    <script type="text/javascript" src="store.js" defer></script>
 
 </head>
 <body>
@@ -29,15 +30,15 @@
           <ul id="nav-ul">
             <li class="nav-link"><a href="home.html">home</a></li>
             <li class="nav-link"><a href="about-us.html">about us</a></li>
-            <li class="nav-link"><a href="#link3">store</a></li>
+            <li class="nav-link"><a href="store.html">store</a></li>
             <li class="nav-link"><a href="tour-dates.html">tour dates</a></li>
             <li class="nav-link"><a href="contact.html">contact</a></li>
           </ul>
-        
+          
           <div class="icons">
             <button type="button" id="hamburger"><span class="material-icons">menu</span></button>
             <button type="button" id="account"><span class="material-icons">account_circle</span></button>
-            <button type="button" id="search"><span class="material-icons">search</span></button>
+            <!-- <button type="button" id="search"><span class="material-icons">search</span></button> -->
             <button type="button" id="shopping-cart"><span class="material-icons">shopping_cart</span></button>
         </div>
       </nav>
@@ -49,28 +50,129 @@
         <button id="logOutBtn">Log Out</button>
       </div>
       <!-- ------------------------------------------------------------ -->
-        <section class="background">
-            <p>"Cu picioare stangi <br> Nu stim sa pasim in noi <br> Avem fluturi si o luna <br> Si un destin de promis..."</p>
-        </section>
-    
+      <section class="background">
+          <p>"Cu picioare stangi <br> Nu stim sa pasim in noi <br> Avem fluturi si o luna <br> Si un destin de promis..."</p>
+      </section>
+<!-- ------------------------------------------------------------ -->
+      <section class="videos">
+          <iframe class="slider" width="1275" height="711" src="https://www.youtube.com/embed/E3j2bj0XLKc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+          </iframe>       
+          <ul>
+              <li onclick="videoSlider('https://www.youtube.com/embed/E3j2bj0XLKc')"><img src="../assets/videos/luna-pe-piele.JPG"></img></li>
+              <li onclick="videoSlider('https://www.youtube.com/embed/yCiNE2HwbuY')"><img src="../assets/videos/atat-de-simplu.JPG"></img></li>
+              <li onclick="videoSlider('https://www.youtube.com/embed/16X0g0iucAI')"><img src="../assets/videos/margini-de-ziua.JPG"></img></li>
+              <li onclick="videoSlider('https://www.youtube.com/embed/gd2j8GtHC8k')"><img src="../assets/videos/spune-ceva.JPG"></img></li>
+              <li onclick="videoSlider('https://www.youtube.com/embed/nOtk7WMkJUo')"><img src="../assets/videos/culorile-tale.JPG"></img></li>
+          </ul>
+      </section>
         
-    
-        <section class="carousel">
-            <img src="" alt="">
-        </section>
+<!-- ************************************************************************************* -->
+<!-- Reccomended Products - best selling-->
+      <section class="product">
+        <h2 class="product-category">Reccomended Products</h2>
 
-        <section class="videos">
-            <iframe class="slider" width="1275" height="711" src="https://www.youtube.com/embed/E3j2bj0XLKc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-            </iframe>       
-            <ul>
-                <li onclick="videoSlider('https://www.youtube.com/embed/E3j2bj0XLKc')"><img src="../assets/videos/luna-pe-piele.JPG"></img></li>
-                <li onclick="videoSlider('https://www.youtube.com/embed/yCiNE2HwbuY')"><img src="../assets/videos/atat-de-simplu.JPG"></img></li>
-                <li onclick="videoSlider('https://www.youtube.com/embed/16X0g0iucAI')"><img src="../assets/videos/margini-de-ziua.JPG"></img></li>
-                <li onclick="videoSlider('https://www.youtube.com/embed/gd2j8GtHC8k')"><img src="../assets/videos/spune-ceva.JPG"></img></li>
-                <li onclick="videoSlider('https://www.youtube.com/embed/nOtk7WMkJUo')"><img src="../assets/videos/culorile-tale.JPG"></img></li>
-            </ul>
-        </section>
+        <button class="pre-btn"><span class="material-icons">arrow_back_ios</span></button>
+        <button class="nxt-btn"><span class="material-icons">arrow_forward_ios</span></button>
 
+        <div class="product-container">
+
+
+
+<!-- ----------- -->
+           <div class="product-card">
+            <div class="product-image">
+              <a href="store.html"><img src="../assets/images/products/productsSite/album1.png" class="product-thumb" alt="product image"></a>
+              <!-- <button class="add-chart-btn">add to Cart</button> -->
+            </div>
+            <div class="product-info">
+              <h2 class="product-brand">Luna pe Piele</h2>
+              <p class="price">50 ron</p>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <a href="store.html"><img src="../assets/images/products/productsSite/culoriletale1.png" class="product-thumb" alt="product image"></a>
+              <!-- <button class="add-chart-btn">add to Cart</button> -->
+            </div>
+            <div class="product-info">
+              <h2 class="product-brand">Culorile Tale</h2>
+              <p class="price">40 ron</p>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <a href="store.html"><img src="../assets/images/products/productsSite/CANA1.PNG" class="product-thumb" alt="product image"></a>
+              <!-- <button class="add-chart-btn">add to Cart</button> -->
+            </div>
+            <div class="product-info">
+              <h2 class="product-brand">Musical Cup</h2>
+              <p class="price">30 ron</p>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <a href="store.html"><img src="../assets/images/products/productsSite/lunapepiele1.PNG" class="product-thumb" alt="product image"></a>
+              <!-- <button class="add-chart-btn">add to Cart</button> -->
+            </div>
+            <div class="product-info">
+              <h2 class="product-brand">T-shirt Luna pe Piele</h2>
+              <p class="price">40 ron</p>
+            </div>
+          </div>
+  
+          <div class="product-card">
+            <div class="product-image">
+              <a href="store.html"><img src="../assets/images/products/productsSite/moon1.PNG" class="product-thumb" alt="product image"></a>
+              <!-- <button class="add-chart-btn">add to Cart</button> -->
+            </div>
+            <div class="product-info">
+              <h2 class="product-brand">Moon</h2>
+              <p class="price">50 ron</p>
+            </div>
+          </div>
+          
+
+          <div class="product-card">
+            <div class="product-image">
+              <a href="store.html"><img src="../assets/images/products/productsSite/lunapepielef1.PNG" class="product-thumb" alt="product image"></a>
+              <!-- <button class="add-chart-btn">add to Cart</button> -->
+            </div>
+            <div class="product-info">
+              <h2 class="product-brand">T-shirt Luna pe Piele</h2>
+              <p class="price">40 ron</p>
+            </div>
+          </div>
+          
+          <div class="product-card">
+            <div class="product-image">
+              <a href="store.html"><img src="../assets/images/products/productsSite/PAUL-TIHANBAND1.PNG" class="product-thumb" alt="product image"></a>
+              <!-- <button class="add-chart-btn">add to Cart</button> -->
+            </div>
+            <div class="product-info">
+              <h2 class="product-brand">Band</h2>
+              <p class="price">40 ron</p>
+            </div>
+          </div>
+          
+          <div class="product-card">
+            <div class="product-image">
+              <a href="store.html"><img src="../assets/images/products/productsSite/pirogravuraluna1.jpg" class="product-thumb" alt="product image"></a>
+              <!-- <button class="add-chart-btn">add to Cart</button> -->
+            </div>
+            <div class="product-info">
+              <h2 class="product-brand">Piro</h2>
+              <p class="price">40 ron</p>
+            </div>
+          </div>
+
+
+      </section>
+
+
+<!-- ************************************************************************************* -->
     </main>
 
     
@@ -120,4 +222,5 @@
 
 
 </body>
+
 </html>
