@@ -29,7 +29,7 @@
           <ul id="nav-ul">
             <li class="nav-link"><a href="home.html">home</a></li>
             <li class="nav-link"><a href="about-us.html">about us</a></li>
-            <li class="nav-link"><a href="#link3">store</a></li>
+            <li class="nav-link"><a href="store.html">store</a></li>
             <li class="nav-link"><a href="tour-dates.html">tour dates</a></li>
             <li class="nav-link"><a href="contact.html">contact</a></li>
           </ul>
@@ -37,7 +37,7 @@
           <div class="icons">
             <button type="button" id="hamburger"><span class="material-icons">menu</span></button>
             <button type="button" id="account"><span class="material-icons">account_circle</span></button>
-            <button type="button" id="search"><span class="material-icons">search</span></button>
+            <!-- <button type="button" id="search"><span class="material-icons">search</span></button> -->
             <button type="button" id="shopping-cart"><span class="material-icons">shopping_cart</span></button>
         </div>
       </nav>
@@ -62,14 +62,14 @@
               <hr id="Indicator">
           </div>
 
-          <form onsubmit="logIn()" id="LoginForm" class="forms">
+          <form onsubmit="logIn()" id="LoginForm" class="forms" method="post">
               <input type="text" name="email" id="logInEmail" placeholder="Email">
               <input type="password" name="password" id="logInPassword" class="passwrd" placeholder="Password">
               <button type="submit" id="btnLogin" class="btn">Login</button>
               <p>Don't have an account?</p><span onclick="moveRegister()">Register</span>
           </form>
 
-          <form onsubmit="register()" id="RegForm" class="forms">
+          <form onsubmit="register()" id="RegForm" class="forms" method="post">
               <input type="text" id="firstN" placeholder="First Name">
               <input type="text" id="lastN" placeholder="Last Name">
               <input type="email" id="eml" placeholder="Email">

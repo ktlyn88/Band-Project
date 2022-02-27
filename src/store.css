@@ -1,0 +1,55 @@
+.back {
+    background-image: linear-gradient(0deg,
+rgba(49, 17, 35, 0.548),
+rgba(20, 8, 15, 0.568)), url(../assets/images/cover2.jpg);
+    height: 15em;
+    /* background-position: center top; */
+}
+
+#allProducts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+
+#allProducts .product-info {
+    margin-top: 1em;
+}
+
+
+#cart {
+    background-color: black;
+    color: aliceblue;
+    position: absolute;
+    right: 0;
+    width: 20em;
+    height: 30em;
+    z-index: 99;
+    
+    overflow-y: scroll;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.cart-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2em;
+}
+
+.cart-items img {
+    width: 4em;
+    object-fit: cover;
+}
+
+.unit-price {
+    position: absolute;
+}
+
+#cart.showww {
+    visibility: visible;
+    opacity: 0.9;
+}

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Paul Tihan - Official Page</title>
+    <title>Paul Tihan - Product Page</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,6 +18,7 @@
     
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="product-page.css">
     <script type="text/javascript" src="index.js" defer></script>
     <script type="text/javascript" src="store.js" defer></script>
 
@@ -38,7 +39,7 @@
           <div class="icons">
             <button type="button" id="hamburger"><span class="material-icons">menu</span></button>
             <button type="button" id="account"><span class="material-icons">account_circle</span></button>
-            <!-- <button type="button" id="search"><span class="material-icons">search</span></button> -->
+            <button type="button" id="search"><span class="material-icons">search</span></button>
             <button type="button" id="shopping-cart"><span class="material-icons">shopping_cart</span></button>
         </div>
       </nav>
@@ -50,140 +51,143 @@
         <button id="logOutBtn">Log Out</button>
       </div>
       <!-- ------------------------------------------------------------ -->
-      <section class="background">
-          <p>"Cu picioare stangi <br> Nu stim sa pasim in noi <br> Avem fluturi si o luna <br> Si un destin de promis..."</p>
-      </section>
-<!-- ------------------------------------------------------------ -->
-      <section class="videos">
-          <iframe class="slider" width="1275" height="711" src="https://www.youtube.com/embed/E3j2bj0XLKc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-          </iframe>       
-          <ul>
-              <li onclick="videoSlider('https://www.youtube.com/embed/E3j2bj0XLKc')"><img src="../assets/videos/luna-pe-piele.JPG"></img></li>
-              <li onclick="videoSlider('https://www.youtube.com/embed/yCiNE2HwbuY')"><img src="../assets/videos/atat-de-simplu.JPG"></img></li>
-              <li onclick="videoSlider('https://www.youtube.com/embed/16X0g0iucAI')"><img src="../assets/videos/margini-de-ziua.JPG"></img></li>
-              <li onclick="videoSlider('https://www.youtube.com/embed/gd2j8GtHC8k')"><img src="../assets/videos/spune-ceva.JPG"></img></li>
-              <li onclick="videoSlider('https://www.youtube.com/embed/nOtk7WMkJUo')"><img src="../assets/videos/culorile-tale.JPG"></img></li>
-          </ul>
-      </section>
-        
-<!-- ************************************************************************************* -->
+<!-- product detail page -->
+
+      <article class="product-details">
+          <div class="image-slider">
+              <div class="product-images">
+                  <img src="../assets/images/products/productsSite/acoustic1.PNG" class="activate" alt="Imagini cu produs">
+                  <img src="../assets/images/products/productsSite/acoustic2.PNG" alt="Imagini cu produs">
+                  <img src="../assets/images/products/productsSite/acoustic3.PNG" alt="Imagini cu produs">
+                  <img src="../assets/images/products/productsSite/acoustic4.PNG" alt="Imagini cu produs">
+              </div>
+          </div>
+
+          <section class="details">
+              <h2 class="product-brand"> Acoustic</h2>
+              <p class="product-description">Acoustic T-shirt</p>
+              <span class="product-price">40 ron</span>
+              <button class="add-chart-product" id="chart-product">add to Chart</button>
+              <section class="detail-des">
+                  <h2 class="head-descript">Product Description</h2>
+                  <p class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit pariatur adipisci asperiores ullam, aliquid sunt reiciendis fuga debitis quaerat provident illum, maxime a unde necessitatibus vitae autem placeat nostrum fugiat vero. Pariatur corporis doloribus quas eum libero, iure sed iusto? Voluptates rem impedit odit architecto tenetur voluptate adipisci ducimus.</p>
+              </section>
+          </section>
+
+
+
+
+      </article>
+
+
+
+      <!-- ------------------------------------------------------------ -->
+
+      <!-- ************************************************************************************* -->
 <!-- Reccomended Products - best selling-->
-      <section class="product">
-        <h2 class="product-category">Reccomended Products</h2>
+    <section class="product">
+        <h2 class="product-category">More Recommendations</h2>
 
         <button class="pre-btn"><span class="material-icons">arrow_back_ios</span></button>
         <button class="nxt-btn"><span class="material-icons">arrow_forward_ios</span></button>
 
         <div class="product-container">
 
-
-
-<!-- ----------- -->
-           <div class="product-card">
+          <!-- ----------- -->
+          <div class="product-card">
             <div class="product-image">
-              <a href="store.html"><img src="../assets/images/products/productsSite/album1.png" class="product-thumb" alt="product image"></a>
-              <button class="add-chart-btn">add to Cart</button>
+              <img src="../assets/images/products/atat-de-simplu.JPG" class="product-thumb" alt="product image">
+              <button class="add-chart-btn">add to Chart</button>
             </div>
             <div class="product-info">
-              <h2 class="product-brand">Luna pe Piele</h2>
+              <h2 class="product-brand">Brand</h2>
+              <p class="price">50 ron</p>
+            </div>
+          </div>
+
+<!--     ----------- -->
+          <div class="product-card">
+            <div class="product-image">
+              <img src="../assets/images/products/luna-pe-piele.jpg" class="product-thumb" alt="product image">
+              <button class="add-chart-btn">add to Chart</button>
+            </div>
+            <div class="product-info">
+              <h2 class="product-brand">Brand</h2>
               <p class="price">50 ron</p>
             </div>
           </div>
 
           <div class="product-card">
             <div class="product-image">
-              <a href="store.html"><img src="../assets/images/products/productsSite/culoriletale1.png" class="product-thumb" alt="product image"></a>
-              <button class="add-chart-btn">add to Cart</button>
+              <img src="../assets/images/products/atat-de-simplu.JPG" class="product-thumb" alt="product image">
+              <button class="add-chart-btn">add to Chart</button>
             </div>
             <div class="product-info">
-              <h2 class="product-brand">Culorile Tale</h2>
-              <p class="price">40 ron</p>
-            </div>
-          </div>
-
-          <div class="product-card">
-            <div class="product-image">
-              <a href="store.html"><img src="../assets/images/products/productsSite/CANA1.PNG" class="product-thumb" alt="product image"></a>
-              <button class="add-chart-btn">add to Cart</button>
-            </div>
-            <div class="product-info">
-              <h2 class="product-brand">Musical Cup</h2>
-              <p class="price">30 ron</p>
-            </div>
-          </div>
-
-          <div class="product-card">
-            <div class="product-image">
-              <a href="store.html"><img src="../assets/images/products/productsSite/lunapepiele1.PNG" class="product-thumb" alt="product image"></a>
-              <button class="add-chart-btn">add to Cart</button>
-            </div>
-            <div class="product-info">
-              <h2 class="product-brand">T-shirt Luna pe Piele</h2>
-              <p class="price">40 ron</p>
-            </div>
-          </div>
-  
-          <div class="product-card">
-            <div class="product-image">
-              <a href="store.html"><img src="../assets/images/products/productsSite/lunapepielef1.PNG" class="product-thumb" alt="product image"></a>
-              <button class="add-chart-btn">add to Cart</button>
-            </div>
-            <div class="product-info">
-              <h2 class="product-brand">T-shirt Luna pe Piele women</h2>
+              <h2 class="product-brand">Brand</h2>
               <p class="price">50 ron</p>
             </div>
           </div>
-          
+
           <div class="product-card">
             <div class="product-image">
-              <a href="store.html"><img src="../assets/images/products/productsSite/moon1.PNG" class="product-thumb" alt="product image"></a>
-              <button class="add-chart-btn">add to Cart</button>
+              <img src="../assets/images/products/atat-de-simplu.JPG" class="product-thumb" alt="product image">
+              <button class="add-chart-btn">add to Chart</button>
             </div>
             <div class="product-info">
-              <h2 class="product-brand">Moon</h2>
-              <p class="price">40 ron</p>
-            </div>
-          </div>
-          
-          <div class="product-card">
-            <div class="product-image">
-              <a href="store.html"><img src="../assets/images/products/productsSite/PAUL-TIHANBAND1.PNG" class="product-thumb" alt="product image"></a>
-              <button class="add-chart-btn">add to Cart</button>
-            </div>
-            <div class="product-info">
-              <h2 class="product-brand">Band</h2>
-              <p class="price">40 ron</p>
-            </div>
-          </div>
-          
-          <div class="product-card">
-            <div class="product-image">
-              <a href="store.html"><img src="../assets/images/products/productsSite/pirogravuraluna1.jpg" class="product-thumb" alt="product image"></a>
-              <button class="add-chart-btn">add to Cart</button>
-            </div>
-            <div class="product-info">
-              <h2 class="product-brand">Piro</h2>
-              <p class="price">40 ron</p>
+              <h2 class="product-brand">Brand</h2>
+              <p class="price">50 ron</p>
             </div>
           </div>
 
+          <div class="product-card">
+            <div class="product-image">
+              <img src="../assets/images/products/atat-de-simplu.JPG" class="product-thumb" alt="product image">
+              <button class="add-chart-btn">add to Chart</button>
+            </div>
+            <div class="product-info">
+              <h2 class="product-brand">Brand</h2>
+              <p class="price">50 ron</p>
+            </div>
+          </div>
 
-      </section>
+          <div class="product-card">
+            <div class="product-image">
+              <img src="../assets/images/products/atat-de-simplu.JPG" class="product-thumb" alt="product image">
+              <button class="add-chart-btn">add to Chart</button>
+            </div>
+            <div class="product-info">
+              <h2 class="product-brand">Brand</h2>
+              <p class="price">50 ron</p>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img src="../assets/images/products/atat-de-simplu.JPG" class="product-thumb" alt="product image">
+              <button class="add-chart-btn">add to Chart</button>
+            </div>
+            <div class="product-info">
+              <h2 class="product-brand">Brand</h2>
+              <p class="price">50 ron</p>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img src="../assets/images/products/atat-de-simplu.JPG" class="product-thumb" alt="product image">
+              <button class="add-chart-btn">add to Chart</button>
+            </div>
+            <div class="product-info">
+              <h2 class="product-brand">Brand</h2>
+              <p class="price">50 ron</p>
+            </div>
+          </div>
+
+    </section>
 
 
-<!-- ************************************************************************************* -->
+
     </main>
-
-    
-    <aside>
-        <h2>follow Paul Tihan band on instagram</h2>
-        <a href="https://instagram.com/paul.tihan?utm_medium=copy_link" target="_blank">
-            <img src="../assets/images/insta.png" width="14px" alt="instagram logo">
-            more from instagram</a>
-    </aside>
-
-
-
 
     <footer>
         <div class="container"> 

@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paul Tihan - Store</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto+Mono:ital,wght@1,200&family=Source+Serif+4:ital,wght@0,300;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="store.css">
+    <script type="text/javascript" src="index.js" defer></script>
+    <script type="text/javascript" src="store.js" defer></script>
+
+
+</head>
+<body>
+
+    <header class="header-section">
+      <nav>
+          <h1>paul tihan band</h1>     
+          <ul id="nav-ul">
+            <li class="nav-link"><a href="home.html">home</a></li>
+            <li class="nav-link"><a href="about-us.html">about us</a></li>
+            <li class="nav-link"><a href="store.html">store</a></li>
+            <li class="nav-link"><a href="tour-dates.html">tour dates</a></li>
+            <li class="nav-link"><a href="contact.html">contact</a></li>
+          </ul>
+          
+          <div class="icons">
+            <button type="button" id="hamburger"><span class="material-icons">menu</span></button>
+            <button type="button" id="account"><span class="material-icons">account_circle</span></button>
+            <!-- <button type="button" id="search"><span class="material-icons">search</span></button> -->
+            <button type="button" id="shopping-cart"><span class="material-icons">shopping_cart</span></button>
+        </div>
+  
+
+
+      </nav>
+  </header>
+
+    <main>
+      <div id="logOutDrop">
+        <h3>Welcome <script>document.write(localStorage.getItem('name'));</script></h3>
+        <button id="logOutBtn">Log Out</button>
+      </div>
+
+
+      <div id="cart">
+        <div class="cart-header">
+          <div class="column1">Item</div>
+          <div class="column2">Unit Price</div>
+          <div class="column3">Units</div>
+        </div>
+        <div class="cart-items">
+          <div class="card-item">
+            <div class="item-info">
+              <img src="" alt="">
+              <h4></h4>
+            </div>
+            <div class="unit-price">
+              <small>ron</small>
+            </div>
+            <div class="units">
+              <div class="btn minus">-</div>
+              <div class="number">1</div>
+              <div class="btn plus">+</div>
+            </div>
+          </div>
+        </div>
+        <div class="cart-footer">
+          <div class="subtotal">
+            Subtotal (0 items): 0 ron
+          </div>
+        </div>
+
+      </div>
+
+
+
+            <!-- ------------------------------------------------------------ -->
+        <section class="background back"></section>
+      <!-- ------------------------------------------------------------ -->
+
+      <!-- <H2>Products Page</H2> -->
+      <section id="allProducts">
+
+        <!-- <div class="product-card">
+            <div class="product-image">
+              <img src="../assets/images/products/productsSite/acoustic1.PNG" class="product-thumb" alt="product image">
+              <button class="add-chart-btn">add to Cart</button>
+            </div>
+            <div class="product-info">
+              <h2 class="product-brand">Acoustic</h2>
+              <p class="price">40 <small>ron</small></p>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img src="../assets/images/products/productsSite/album1.png" class="product-thumb" alt="product image">
+              <button class="add-chart-btn">add to Cart</button>
+            </div>
+            <div class="product-info">
+              <h2 class="product-brand">Album Luna pe Piele</h2>
+              <p class="price">50 <small>ron</small></p>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img src="../assets/images/products/productsSite/band1.PNG" class="product-thumb" alt="product image">
+              <button class="add-chart-btn">add to Cart</button>
+            </div>
+            <div class="product-info">
+              <h2 class="product-brand">T-shirt with the band</h2>
+              <p class="price">40 <small>ron</small></p>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img src="../assets/images/products/productsSite/BBAND1.PNG" class="product-thumb" alt="product image">
+              <button class="add-chart-btn">add to Cart</button>
+            </div>
+            <div class="product-info">
+              <h2 class="product-brand">T-shirt Live Music</h2>
+              <p class="price">40 <small>ron</small></p>
+            </div>
+          </div>
+  
+          <div class="product-card">
+            <div class="product-image">
+              <img src="../assets/images/products/productsSite/CANA1.PNG" class="product-thumb" alt="product image">
+              <button class="add-chart-btn">add to Cart</button>
+            </div>
+            <div class="product-info">
+              <h2 class="product-brand">Musical cup</h2>
+              <p class="price">30 <small>ron</small></p>
+            </div>
+          </div>
+          
+          <div class="product-card">
+            <div class="product-image">
+              <img src="../assets/images/products/productsSite/cello1.PNG" class="product-thumb" alt="product image">
+              <button class="add-chart-btn">add to Cart</button>
+            </div>
+            <div class="product-info">
+              <h2 class="product-brand">T-shirt Cello</h2>
+              <p class="price">40 <small>ron</small></p>
+            </div>
+          </div>
+          
+          <div class="product-card">
+            <div class="product-image">
+              <img src="../assets/images/products/productsSite/culoriletale1.png" class="product-thumb" alt="product image">
+              <button class="add-chart-btn">add to Cart</button>
+            </div>
+            <div class="product-info">
+              <h2 class="product-brand">T-shirt Culorile tale</h2>
+              <p class="price">40 <small>ron</small></p>
+            </div>
+          </div>
+          
+          <div class="product-card">
+            <div class="product-image">
+              <img src="../assets/images/products/productsSite/PAUL-TIHANBAND1.PNG" class="product-thumb" alt="product image">
+              <button class="add-chart-btn">add to Cart</button>
+            </div>
+            <div class="product-info">
+              <h2 class="product-brand">T-shirt with Band</h2>
+              <p class="price">40 <small>ron</small></p>
+            </div>
+          </div>
+
+
+          <div class="product-card">
+            <div class="product-image">
+              <img src="../assets/images/products/productsSite/drum1.PNG" class="product-thumb" alt="product image">
+              <button class="add-chart-btn">add to Cart</button>
+            </div>
+            <div class="product-info">
+              <h2 class="product-brand">T-shirt Drum Player</h2>
+              <p class="price">40 <small>ron</small></p>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+              <img src="../assets/images/products/productsSite/Guitar1.PNG" class="product-thumb" alt="product image">
+              <button class="add-chart-btn">add to Cart</button>
+            </div>
+            <div class="product-info">
+              <h2 class="product-brand">T-shirt Guitar</h2>
+              <p class="price">40 <small>ron</small></p>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+              <img src="../assets/images/products/productsSite/LIVEMUSIC2.PNG" class="product-thumb" alt="product image">
+              <button class="add-chart-btn">add to Cart</button>
+            </div>
+            <div class="product-info">
+              <h2 class="product-brand">T-shirt Live Music</h2>
+              <p class="price">40 <small>ron</small></p>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+              <img src="../assets/images/products/productsSite/LUNAGRI1.PNG" class="product-thumb" alt="product image">
+              <button class="add-chart-btn">add to Cart</button>
+            </div>
+            <div class="product-info">
+              <h2 class="product-brand">T-shirt Luna pe Piele</h2>
+              <p class="price">40 <small>ron</small></p>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+              <img src="../assets/images/products/productsSite/lunapepiele1.PNG" class="product-thumb" alt="product image">
+              <button class="add-chart-btn">add to Cart</button>
+            </div>
+            <div class="product-info">
+              <h2 class="product-brand">T-shirt with moon</h2>
+              <p class="price">40 <small>ron</small></p>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+              <img src="../assets/images/products/productsSite/lunapepielef1.PNG" class="product-thumb" alt="product image">
+              <button class="add-chart-btn">add to Cart</button>
+            </div>
+            <div class="product-info">
+              <h2 class="product-brand">T-shirt Luna pe Piele women</h2>
+              <p class="price">40 <small>ron</small></p>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+              <img src="../assets/images/products/productsSite/margini-de-ziua1.PNG" class="product-thumb" alt="product image">
+              <button class="add-chart-btn">add to Cart</button>
+            </div>
+            <div class="product-info">
+              <h2 class="product-brand">T-shirt Margini de Ziua</h2>
+              <p class="price">40 <small>ron</small></p>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+              <img src="../assets/images/products/productsSite/moon1.PNG" class="product-thumb" alt="product image">
+              <button class="add-chart-btn">add to Cart</button>
+            </div>
+            <div class="product-info">
+              <h2 class="product-brand">T-shirt Moon for women</h2>
+              <p class="price">40 <small>ron</small></p>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+              <img src="../assets/images/products/productsSite/MOONE1.PNG" class="product-thumb" alt="product image">
+              <button class="add-chart-btn">add to Cart</button>
+            </div>
+            <div class="product-info">
+              <h2 class="product-brand">T-shirt Luna pe Piele</h2>
+              <p class="price">40 <small>ron</small></p>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+              <img src="../assets/images/products/productsSite/MOONSUN1.jpeg" class="product-thumb" alt="product image">
+              <button class="add-chart-btn">add to Cart</button>
+            </div>
+            <div class="product-info">
+              <h2 class="product-brand">T-shirt Moon</h2>
+              <p class="price">40 <small>ron</small></p>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+              <img src="../assets/images/products/productsSite/MUSIC1.jpeg" class="product-thumb" alt="product image">
+              <button class="add-chart-btn">add to Cart</button>
+            </div>
+            <div class="product-info">
+              <h2 class="product-brand">T-shirt Music</h2>
+              <p class="price">40 <small>ron</small></p>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+              <img src="../assets/images/products/productsSite/NOTE1.jpeg" class="product-thumb" alt="product image">
+              <button class="add-chart-btn">add to Cart</button>
+            </div>
+            <div class="product-info">
+              <h2 class="product-brand">T-shirt Music</h2>
+              <p class="price">40 <small>ron</small></p>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+              <img src="../assets/images/products/productsSite/piro1.jpg" class="product-thumb" alt="product image">
+              <button class="add-chart-btn">add to Cart</button>
+            </div>
+            <div class="product-info">
+              <h2 class="product-brand">Pyrographed wood with trees</h2>
+              <p class="price">50 <small>ron</small></p>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+              <img src="../assets/images/products/productsSite/pirogravuraluna1.jpg" class="product-thumb" alt="product image">
+              <button class="add-chart-btn">add to Cart</button>
+            </div>
+            <div class="product-info">
+              <h2 class="product-brand">Pyrographed wood with moon</h2>
+              <p class="price">50 <small>ron</small></p>
+            </div>
+          </div> -->
+
+
+
+      </section>
+
+
+   <!-- ------------------------------------------------------------ -->
+   <!-- ------------------------------------------------------------ -->
+      <!-- <section id="allProducts1"></section> -->
+
+
+
+
+
+   <!-- ------------------------------------------------------------ -->
+      <!-- ------------------------------------------------------------ -->
+      </main>
+
+      <footer>
+        <div class="container"> 
+            <div class="logo-social">
+                <h3>Paul Tihan band</h3>  
+                <ul>
+                    <li>
+                      <a href="https://www.facebook.com/Paul-Tihan-1218515535204563" target="_blank">
+                        <img src="../assets/images/fb.png" alt="Facebook logo" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://twitter.com" target="_blank">
+                        <img src="../assets/images/tw.png" alt="Twitter logo" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://instagram.com/paul.tihan?utm_medium=copy_link" target="_blank">
+                        <img src="../assets/images/insta.png" alt="Instagram logo" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.youtube.com/channel/UCum1rcStl6Rr3PK95lGnfOg" target="_blank">
+                        <img src="../assets/images/yt.png" alt="YouTube logo" />
+                      </a>
+                    </li>
+                </ul>
+            </div>
+            <p>© 2022 Paul Tihan Band. All rights reserved.</p>
+        </div>
+   
+        
+
+    </footer>
+
+
+</body>
+
+</html>

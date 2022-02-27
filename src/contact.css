@@ -25,7 +25,7 @@ article {
     justify-content: space-between;
     
 }
-h1, h3 {
+h1, h3:not(.minimize) {
     text-transform: uppercase;
 }
 p {

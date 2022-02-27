@@ -1,4 +1,14 @@
-// Hamburger Show
+// show cart
+const shoppingCart = document.getElementById('shopping-cart');
+const caaart = document.getElementById('cart');
+
+shoppingCart.addEventListener('click', () => {
+    caaart.classList.toggle('showww');
+})
+
+
+
+
 const hamburger = document.getElementById('hamburger');
 const navUl = document.getElementById('nav-ul');
 
@@ -17,6 +27,26 @@ function videoSlider(links){
     document.querySelector(".slider").src = links; 
 }
 
+
+// account Log in/sign up
+let LoginForm = document.getElementById('LoginForm');
+let RegForm = document.getElementById('RegForm');
+let Indicator = document.getElementById('Indicator');
+
+function moveRegister() {
+    RegForm.style.transform = "translateX(0px)";
+    LoginForm.style.transform = "translateX(0px)";
+    Indicator.style.transform = "translateX(100px)";
+}
+
+function moveLogin() {
+    RegForm.style.transform = "translateX(300px)";
+    LoginForm.style.transform = "translateX(300px)";
+    Indicator.style.transform = "translateX(0px)";
+}
+
+
+
 // Header Buttons
 // Account
 let btnAccount = document.getElementById('account');
@@ -33,9 +63,6 @@ btnAccount.addEventListener('click', () => {
         alert('You need to create an account first');
         window.location.href = 'account.html';
     }
-
-
-
 })
 // ------------------
 // LogOut function
@@ -64,25 +91,7 @@ logOutBtn.addEventListener('click', () => {
 //     window.location.href = 'account.html';
 // });
 
-
-
-// account Log in/sign up
-let LoginForm = document.getElementById('LoginForm');
-let RegForm = document.getElementById('RegForm');
-let Indicator = document.getElementById('Indicator');
-
-function moveRegister() {
-    RegForm.style.transform = "translateX(0px)";
-    LoginForm.style.transform = "translateX(0px)";
-    Indicator.style.transform = "translateX(100px)";
-}
-
-function moveLogin() {
-    RegForm.style.transform = "translateX(300px)";
-    LoginForm.style.transform = "translateX(300px)";
-    Indicator.style.transform = "translateX(0px)";
-}
-
+// ********************************************************************************
 
 // ********************************************************************************
 

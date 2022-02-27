@@ -1,0 +1,538 @@
+[
+    {
+        "index": 1,
+        "brand": "Acoustic",
+        "title": "Acoustic T-shirt",
+        "price": "40 ron",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit pariatur adipisci asperiores ullam, aliquid sunt reiciendis fuga debitis quaerat provident illum, maxime a unde necessitatibus vitae autem placeat nostrum fugiat vero. Pariatur corporis doloribus quas eum libero, iure sed iusto? Voluptates rem impedit odit architecto tenetur voluptate adipisci ducimus.",
+        "images": [
+            "../assets/images/products/productsSite/acoustic1.PNG",
+            "../assets/images/products/productsSite/acoustic2.PNG",
+            "../assets/images/products/productsSite/acoustic3.PNG",
+            "../assets/images/products/productsSite/acoustic4.PNG"
+        ]
+
+    },
+    {
+        "index": 2,
+        "brand": "Luna pe Piele",
+        "title": "Album Luna pe Piele",
+        "price": "50 ron",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit pariatur adipisci asperiores ullam, aliquid sunt reiciendis fuga debitis quaerat provident illum, maxime a unde necessitatibus vitae autem placeat nostrum fugiat vero. Pariatur corporis doloribus quas eum libero, iure sed iusto? Voluptates rem impedit odit architecto tenetur voluptate adipisci ducimus.",
+        "images": [
+            "../assets/images/products/productsSite/album1.png",
+            "../assets/images/products/productsSite/album2.png",
+            "../assets/images/products/productsSite/album3.png",
+            "../assets/images/products/productsSite/album4.png"
+        ]
+
+    },
+    {
+        "index": 3,
+        "brand": "Band",
+        "title": "T-shirt with the band",
+        "price": "40 ron",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit pariatur adipisci asperiores ullam, aliquid sunt reiciendis fuga debitis quaerat provident illum, maxime a unde necessitatibus vitae autem placeat nostrum fugiat vero. Pariatur corporis doloribus quas eum libero, iure sed iusto? Voluptates rem impedit odit architecto tenetur voluptate adipisci ducimus.",
+        "images": [
+            "../assets/images/products/productsSite/band1.PNG",
+            "../assets/images/products/productsSite/band2.PNG",
+            "../assets/images/products/productsSite/band3.PNG",
+            "../assets/images/products/productsSite/band4.PNG"
+        ]
+
+    },
+    {
+        "index": 4,
+        "brand": "Live Music",
+        "title": "T-shirt Live Music",
+        "price": "40 ron",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit pariatur adipisci asperiores ullam, aliquid sunt reiciendis fuga debitis quaerat provident illum, maxime a unde necessitatibus vitae autem placeat nostrum fugiat vero. Pariatur corporis doloribus quas eum libero, iure sed iusto? Voluptates rem impedit odit architecto tenetur voluptate adipisci ducimus.",
+        "images": [
+            "../assets/images/products/productsSite/BBAND1.PNG",
+            "../assets/images/products/productsSite/BBAND2.PNG",
+            "../assets/images/products/productsSite/BBAND3.PNG",
+            "../assets/images/products/productsSite/BBAND4.PNG"
+        ]
+
+    },
+    {
+        "index": 5,
+        "brand": "Cup",
+        "title": "Musical cup",
+        "price": "30 ron",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit pariatur adipisci asperiores ullam, aliquid sunt reiciendis fuga debitis quaerat provident illum, maxime a unde necessitatibus vitae autem placeat nostrum fugiat vero. Pariatur corporis doloribus quas eum libero, iure sed iusto? Voluptates rem impedit odit architecto tenetur voluptate adipisci ducimus.",
+        "images": [
+            "../assets/images/products/productsSite/CANA1.PNG",
+            "../assets/images/products/productsSite/CANA2.PNG",
+            "../assets/images/products/productsSite/CANA3.PNG",
+            "../assets/images/products/productsSite/CANA4.PNG"
+        ]
+
+    },
+    {
+        "index": 6,
+        "brand": "Cello",
+        "title": "T-shirt Cello",
+        "price": "40 ron",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit pariatur adipisci asperiores ullam, aliquid sunt reiciendis fuga debitis quaerat provident illum, maxime a unde necessitatibus vitae autem placeat nostrum fugiat vero. Pariatur corporis doloribus quas eum libero, iure sed iusto? Voluptates rem impedit odit architecto tenetur voluptate adipisci ducimus.",
+        "images": [
+            "../assets/images/products/productsSite/cello1.PNG",
+            "../assets/images/products/productsSite/cello2.PNG",
+            "../assets/images/products/productsSite/cello3.PNG",
+            "../assets/images/products/productsSite/cello4.PNG"
+        ]
+
+    },
+    {
+        "index": 7,
+        "brand": "Culorile tale",
+        "title": "T-shirt Culorile tale",
+        "price": "40 ron",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit pariatur adipisci asperiores ullam, aliquid sunt reiciendis fuga debitis quaerat provident illum, maxime a unde necessitatibus vitae autem placeat nostrum fugiat vero. Pariatur corporis doloribus quas eum libero, iure sed iusto? Voluptates rem impedit odit architecto tenetur voluptate adipisci ducimus.",
+        "images": [
+            "../assets/images/products/productsSite/culoriletale1.png",
+            "../assets/images/products/productsSite/culoriletale2.png",
+            "../assets/images/products/productsSite/culoriletale3.png",
+            "../assets/images/products/productsSite/culoriletale4.png"
+        ]
+
+    },
+    {
+        "index": 8,
+        "brand": "Band",
+        "title": "T-shirt with Band",
+        "price": "40 ron",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit pariatur adipisci asperiores ullam, aliquid sunt reiciendis fuga debitis quaerat provident illum, maxime a unde necessitatibus vitae autem placeat nostrum fugiat vero. Pariatur corporis doloribus quas eum libero, iure sed iusto? Voluptates rem impedit odit architecto tenetur voluptate adipisci ducimus.",
+        "images": [
+            "../assets/images/products/productsSite/PAUL-TIHANBAND1.PNG",
+            "../assets/images/products/productsSite/PAUL-TIHANBAND2.PNG",
+            "../assets/images/products/productsSite/PAUL-TIHANBAND3.PNG",
+            "../assets/images/products/productsSite/PAUL-TIHANBAND4.PNG"
+        ]
+
+    },
+    {
+        "index": 9,
+        "brand": "Drum Player",
+        "title": "T-shirt Drum Player",
+        "price": "40 ron",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit pariatur adipisci asperiores ullam, aliquid sunt reiciendis fuga debitis quaerat provident illum, maxime a unde necessitatibus vitae autem placeat nostrum fugiat vero. Pariatur corporis doloribus quas eum libero, iure sed iusto? Voluptates rem impedit odit architecto tenetur voluptate adipisci ducimus.",
+        "images": [
+            "../assets/images/products/productsSite/drum1.PNG",
+            "../assets/images/products/productsSite/drum2.PNG",
+            "../assets/images/products/productsSite/drum3.PNG",
+            "../assets/images/products/productsSite/drum4.PNG"
+        ]
+
+    },
+    {
+        "index": 10,
+        "brand": "Guitar",
+        "title": "T-shirt Guitar",
+        "price": "40 ron",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit pariatur adipisci asperiores ullam, aliquid sunt reiciendis fuga debitis quaerat provident illum, maxime a unde necessitatibus vitae autem placeat nostrum fugiat vero. Pariatur corporis doloribus quas eum libero, iure sed iusto? Voluptates rem impedit odit architecto tenetur voluptate adipisci ducimus.",
+        "images": [
+            "../assets/images/products/productsSite/Guitar1.PNG",
+            "../assets/images/products/productsSite/Guitar2.PNG",
+            "../assets/images/products/productsSite/Guitar3.PNG",
+            "../assets/images/products/productsSite/Guitar4.PNG"
+        ]
+
+    },
+    {
+        "index": 11,
+        "brand": "Live Music",
+        "title": "T-shirt Live Music",
+        "price": "40 ron",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit pariatur adipisci asperiores ullam, aliquid sunt reiciendis fuga debitis quaerat provident illum, maxime a unde necessitatibus vitae autem placeat nostrum fugiat vero. Pariatur corporis doloribus quas eum libero, iure sed iusto? Voluptates rem impedit odit architecto tenetur voluptate adipisci ducimus.",
+        "images": [
+            "../assets/images/products/productsSite/LIVEMUSIC2.PNG",
+            "../assets/images/products/productsSite/LIVEMUSIC3.PNG",
+            "../assets/images/products/productsSite/LIVEMUSIC4.PNG",
+            "../assets/images/products/productsSite/LIVEMUSIC5.PNG"
+        ]
+
+    },
+    {
+        "index": 12,
+        "brand": "Luna pe Piele",
+        "title": "T-shirt Luna pe Piele",
+        "price": "40 ron",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit pariatur adipisci asperiores ullam, aliquid sunt reiciendis fuga debitis quaerat provident illum, maxime a unde necessitatibus vitae autem placeat nostrum fugiat vero. Pariatur corporis doloribus quas eum libero, iure sed iusto? Voluptates rem impedit odit architecto tenetur voluptate adipisci ducimus.",
+        "images": [
+            "../assets/images/products/productsSite/LUNAGRI1.PNG",
+            "../assets/images/products/productsSite/LUNAGRI2.PNG",
+            "../assets/images/products/productsSite/LUNAGRI3.PNG",
+            "../assets/images/products/productsSite/LUNAGRI4.PNG"
+        ]
+
+    },
+    {
+        "index": 13,
+        "brand": "Moon",
+        "title": "T-shirt with moon",
+        "price": "40 ron",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit pariatur adipisci asperiores ullam, aliquid sunt reiciendis fuga debitis quaerat provident illum, maxime a unde necessitatibus vitae autem placeat nostrum fugiat vero. Pariatur corporis doloribus quas eum libero, iure sed iusto? Voluptates rem impedit odit architecto tenetur voluptate adipisci ducimus.",
+        "images": [
+            "../assets/images/products/productsSite/lunapepiele1.PNG",
+            "../assets/images/products/productsSite/lunapepiele2.PNG",
+            "../assets/images/products/productsSite/lunapepiele3.PNG",
+            "../assets/images/products/productsSite/lunapepiele4.PNG"
+        ]
+
+    },
+    {
+        "index": 14,
+        "brand": "Luna pe Piele",
+        "title": "T-shirt Luna pe Piele women",
+        "price": "40 ron",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit pariatur adipisci asperiores ullam, aliquid sunt reiciendis fuga debitis quaerat provident illum, maxime a unde necessitatibus vitae autem placeat nostrum fugiat vero. Pariatur corporis doloribus quas eum libero, iure sed iusto? Voluptates rem impedit odit architecto tenetur voluptate adipisci ducimus.",
+        "images": [
+            "../assets/images/products/productsSite/lunapepielef1.PNG",
+            "../assets/images/products/productsSite/lunapepielef2.PNG",
+            "../assets/images/products/productsSite/lunapepielef3.PNG",
+            "../assets/images/products/productsSite/lunapepielef4.PNG"
+        ]
+
+    },
+    {
+        "index": 15,
+        "brand": "Marginini de Ziua",
+        "title": "T-shirt Margini de Ziua",
+        "price": "40 ron",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit pariatur adipisci asperiores ullam, aliquid sunt reiciendis fuga debitis quaerat provident illum, maxime a unde necessitatibus vitae autem placeat nostrum fugiat vero. Pariatur corporis doloribus quas eum libero, iure sed iusto? Voluptates rem impedit odit architecto tenetur voluptate adipisci ducimus.",
+        "images": [
+            "../assets/images/products/productsSite/margini-de-ziua1.PNG",
+            "../assets/images/products/productsSite/margini-de-ziua2.PNG",
+            "../assets/images/products/productsSite/margini-de-ziua3.PNG",
+            "../assets/images/products/productsSite/margini-de-ziua4.PNG"
+        ]
+
+    },
+    {
+        "index": 16,
+        "brand": "Moon",
+        "title": "T-shirt Moon for women",
+        "price": "40 ron",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit pariatur adipisci asperiores ullam, aliquid sunt reiciendis fuga debitis quaerat provident illum, maxime a unde necessitatibus vitae autem placeat nostrum fugiat vero. Pariatur corporis doloribus quas eum libero, iure sed iusto? Voluptates rem impedit odit architecto tenetur voluptate adipisci ducimus.",
+        "images": [
+            "../assets/images/products/productsSite/moon1.PNG",
+            "../assets/images/products/productsSite/moon2.PNG",
+            "../assets/images/products/productsSite/moon3.PNG",
+            "../assets/images/products/productsSite/moon4.PNG"
+        ]
+
+    },
+    {
+        "index": 17,
+        "brand": "Luna pe Piele",
+        "title": "T-shirt Luna pe Piele",
+        "price": "40 ron",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit pariatur adipisci asperiores ullam, aliquid sunt reiciendis fuga debitis quaerat provident illum, maxime a unde necessitatibus vitae autem placeat nostrum fugiat vero. Pariatur corporis doloribus quas eum libero, iure sed iusto? Voluptates rem impedit odit architecto tenetur voluptate adipisci ducimus.",
+        "images": [
+            "../assets/images/products/productsSite/MOONE1.PNG",
+            "../assets/images/products/productsSite/MOONE2.PNG",
+            "../assets/images/products/productsSite/MOONE3.PNG",
+            "../assets/images/products/productsSite/MOONE4.PNG"
+        ]
+
+    },
+    {
+        "index": 18,
+        "brand": "Moon",
+        "title": "T-shirt Moon",
+        "price": "40 ron",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit pariatur adipisci asperiores ullam, aliquid sunt reiciendis fuga debitis quaerat provident illum, maxime a unde necessitatibus vitae autem placeat nostrum fugiat vero. Pariatur corporis doloribus quas eum libero, iure sed iusto? Voluptates rem impedit odit architecto tenetur voluptate adipisci ducimus.",
+        "images": [
+            "../assets/images/products/productsSite/MOONSUN1.jpeg",
+            "../assets/images/products/productsSite/MOONSUN2.jpeg",
+            "../assets/images/products/productsSite/MOONSUN3.jpeg",
+            "../assets/images/products/productsSite/MOONSUN4.jpeg"
+        ]
+
+    },
+    {
+        "index": 19,
+        "brand": "Music",
+        "title": "T-shirt Music",
+        "price": "40 ron",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit pariatur adipisci asperiores ullam, aliquid sunt reiciendis fuga debitis quaerat provident illum, maxime a unde necessitatibus vitae autem placeat nostrum fugiat vero. Pariatur corporis doloribus quas eum libero, iure sed iusto? Voluptates rem impedit odit architecto tenetur voluptate adipisci ducimus.",
+        "images": [
+            "../assets/images/products/productsSite/MUSIC1.jpeg",
+            "../assets/images/products/productsSite/MUSIC2.jpeg",
+            "../assets/images/products/productsSite/MUSIC3.jpeg",
+            "../assets/images/products/productsSite/MUSIC4.jpeg"
+        ]
+
+    },
+    {
+        "index": 20,
+        "brand": "Music",
+        "title": "T-shirt Music",
+        "price": "40 ron",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit pariatur adipisci asperiores ullam, aliquid sunt reiciendis fuga debitis quaerat provident illum, maxime a unde necessitatibus vitae autem placeat nostrum fugiat vero. Pariatur corporis doloribus quas eum libero, iure sed iusto? Voluptates rem impedit odit architecto tenetur voluptate adipisci ducimus.",
+        "images": [
+            "../assets/images/products/productsSite/NOTE1.jpeg",
+            "../assets/images/products/productsSite/NOTE2.jpeg",
+            "../assets/images/products/productsSite/NOTE3.jpeg",
+            "../assets/images/products/productsSite/NOTE4.jpeg"
+        ]
+
+    },
+    {
+        "index": 21,
+        "brand": "Piro",
+        "title": "Pyrographed wood with trees",
+        "price": "50 ron",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit pariatur adipisci asperiores ullam, aliquid sunt reiciendis fuga debitis quaerat provident illum, maxime a unde necessitatibus vitae autem placeat nostrum fugiat vero. Pariatur corporis doloribus quas eum libero, iure sed iusto? Voluptates rem impedit odit architecto tenetur voluptate adipisci ducimus.",
+        "images": [
+            "../assets/images/products/productsSite/piro1.jpg",
+            "../assets/images/products/productsSite/piro2.jpg",
+            "../assets/images/products/productsSite/piro3.jpg",
+            "../assets/images/products/productsSite/piro4.jpg"
+        ]
+
+    },
+    {
+        "index": 22,
+        "brand": "Piro",
+        "title": "Pyrographed wood with moon",
+        "price": "50 ron",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit pariatur adipisci asperiores ullam, aliquid sunt reiciendis fuga debitis quaerat provident illum, maxime a unde necessitatibus vitae autem placeat nostrum fugiat vero. Pariatur corporis doloribus quas eum libero, iure sed iusto? Voluptates rem impedit odit architecto tenetur voluptate adipisci ducimus.",
+        "images": [
+            "../assets/images/products/productsSite/pirogravuraluna1.jpg",
+            "../assets/images/products/productsSite/pirogravuraluna2.jpg",
+            "../assets/images/products/productsSite/pirogravuraluna3.jpg",
+            "../assets/images/products/productsSite/pirogravuraluna4.jpg"
+        ]
+
+    }
+
+]
+
+// ------------------------------------------------------------------------
+
+
+[
+    {
+        "index": 1,
+        "brand": "Acoustic",
+        "title": "Acoustic T-shirt",
+        "price": 40,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit pariatur adipisci asperiores ullam, aliquid sunt reiciendis fuga debitis quaerat provident illum, maxime a unde necessitatibus vitae autem placeat nostrum fugiat vero. Pariatur corporis doloribus quas eum libero, iure sed iusto? Voluptates rem impedit odit architecto tenetur voluptate adipisci ducimus.",
+        "images": "../assets/images/products/productsSite/acoustic1.PNG"
+
+
+    },
+    {
+        "index": 2,
+        "brand": "Luna pe Piele",
+        "title": "Album Luna pe Piele",
+        "price": 50,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit pariatur adipisci asperiores ullam, aliquid sunt reiciendis fuga debitis quaerat provident illum, maxime a unde necessitatibus vitae autem placeat nostrum fugiat vero. Pariatur corporis doloribus quas eum libero, iure sed iusto? Voluptates rem impedit odit architecto tenetur voluptate adipisci ducimus.",
+        "images": "../assets/images/products/productsSite/album1.png"
+
+
+    },
+    {
+        "index": 3,
+        "brand": "Band",
+        "title": "T-shirt with the band",
+        "price": 40,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit pariatur adipisci asperiores ullam, aliquid sunt reiciendis fuga debitis quaerat provident illum, maxime a unde necessitatibus vitae autem placeat nostrum fugiat vero. Pariatur corporis doloribus quas eum libero, iure sed iusto? Voluptates rem impedit odit architecto tenetur voluptate adipisci ducimus.",
+        "images": "../assets/images/products/productsSite/band1.PNG"
+ 
+
+    },
+    {
+        "index": 4,
+        "brand": "Live Music",
+        "title": "T-shirt Live Music",
+        "price": 40,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit pariatur adipisci asperiores ullam, aliquid sunt reiciendis fuga debitis quaerat provident illum, maxime a unde necessitatibus vitae autem placeat nostrum fugiat vero. Pariatur corporis doloribus quas eum libero, iure sed iusto? Voluptates rem impedit odit architecto tenetur voluptate adipisci ducimus.",
+        "images": "../assets/images/products/productsSite/BBAND1.PNG"
+
+
+    },
+    {
+        "index": 5,
+        "brand": "Cup",
+        "title": "Musical cup",
+        "price": 30,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit pariatur adipisci asperiores ullam, aliquid sunt reiciendis fuga debitis quaerat provident illum, maxime a unde necessitatibus vitae autem placeat nostrum fugiat vero. Pariatur corporis doloribus quas eum libero, iure sed iusto? Voluptates rem impedit odit architecto tenetur voluptate adipisci ducimus.",
+        "images": "../assets/images/products/productsSite/CANA1.PNG"
+
+
+    },
+    {
+        "index": 6,
+        "brand": "Cello",
+        "title": "T-shirt Cello",
+        "price": 40,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit pariatur adipisci asperiores ullam, aliquid sunt reiciendis fuga debitis quaerat provident illum, maxime a unde necessitatibus vitae autem placeat nostrum fugiat vero. Pariatur corporis doloribus quas eum libero, iure sed iusto? Voluptates rem impedit odit architecto tenetur voluptate adipisci ducimus.",
+        "images": "../assets/images/products/productsSite/cello1.PNG"
+
+
+    },
+    {
+        "index": 7,
+        "brand": "Culorile tale",
+        "title": "T-shirt Culorile tale",
+        "price": 40,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit pariatur adipisci asperiores ullam, aliquid sunt reiciendis fuga debitis quaerat provident illum, maxime a unde necessitatibus vitae autem placeat nostrum fugiat vero. Pariatur corporis doloribus quas eum libero, iure sed iusto? Voluptates rem impedit odit architecto tenetur voluptate adipisci ducimus.",
+        "images": "../assets/images/products/productsSite/culoriletale1.png"
+
+
+    },
+    {
+        "index": 8,
+        "brand": "Band",
+        "title": "T-shirt with Band",
+        "price": 40,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit pariatur adipisci asperiores ullam, aliquid sunt reiciendis fuga debitis quaerat provident illum, maxime a unde necessitatibus vitae autem placeat nostrum fugiat vero. Pariatur corporis doloribus quas eum libero, iure sed iusto? Voluptates rem impedit odit architecto tenetur voluptate adipisci ducimus.",
+        "images": "../assets/images/products/productsSite/PAUL-TIHANBAND1.PNG"
+
+
+    },
+    {
+        "index": 9,
+        "brand": "Drum Player",
+        "title": "T-shirt Drum Player",
+        "price": 40,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit pariatur adipisci asperiores ullam, aliquid sunt reiciendis fuga debitis quaerat provident illum, maxime a unde necessitatibus vitae autem placeat nostrum fugiat vero. Pariatur corporis doloribus quas eum libero, iure sed iusto? Voluptates rem impedit odit architecto tenetur voluptate adipisci ducimus.",
+        "images": "../assets/images/products/productsSite/drum1.PNG"
+
+
+    },
+    {
+        "index": 10,
+        "brand": "Guitar",
+        "title": "T-shirt Guitar",
+        "price": 40,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit pariatur adipisci asperiores ullam, aliquid sunt reiciendis fuga debitis quaerat provident illum, maxime a unde necessitatibus vitae autem placeat nostrum fugiat vero. Pariatur corporis doloribus quas eum libero, iure sed iusto? Voluptates rem impedit odit architecto tenetur voluptate adipisci ducimus.",
+        "images": "../assets/images/products/productsSite/Guitar1.PNG"
+
+
+    },
+    {
+        "index": 11,
+        "brand": "Live Music",
+        "title": "T-shirt Live Music",
+        "price": 40,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit pariatur adipisci asperiores ullam, aliquid sunt reiciendis fuga debitis quaerat provident illum, maxime a unde necessitatibus vitae autem placeat nostrum fugiat vero. Pariatur corporis doloribus quas eum libero, iure sed iusto? Voluptates rem impedit odit architecto tenetur voluptate adipisci ducimus.",
+        "images": "../assets/images/products/productsSite/LIVEMUSIC2.PNG"
+
+
+    },
+    {
+        "index": 12,
+        "brand": "Luna pe Piele",
+        "title": "T-shirt Luna pe Piele",
+        "price": 40,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit pariatur adipisci asperiores ullam, aliquid sunt reiciendis fuga debitis quaerat provident illum, maxime a unde necessitatibus vitae autem placeat nostrum fugiat vero. Pariatur corporis doloribus quas eum libero, iure sed iusto? Voluptates rem impedit odit architecto tenetur voluptate adipisci ducimus.",
+        "images": "../assets/images/products/productsSite/LUNAGRI1.PNG"
+
+
+    },
+    {
+        "index": 13,
+        "brand": "Moon",
+        "title": "T-shirt with moon",
+        "price": 40,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit pariatur adipisci asperiores ullam, aliquid sunt reiciendis fuga debitis quaerat provident illum, maxime a unde necessitatibus vitae autem placeat nostrum fugiat vero. Pariatur corporis doloribus quas eum libero, iure sed iusto? Voluptates rem impedit odit architecto tenetur voluptate adipisci ducimus.",
+        "images": "../assets/images/products/productsSite/lunapepiele1.PNG"
+
+
+    },
+    {
+        "index": 14,
+        "brand": "Luna pe Piele",
+        "title": "T-shirt Luna pe Piele women",
+        "price": 40,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit pariatur adipisci asperiores ullam, aliquid sunt reiciendis fuga debitis quaerat provident illum, maxime a unde necessitatibus vitae autem placeat nostrum fugiat vero. Pariatur corporis doloribus quas eum libero, iure sed iusto? Voluptates rem impedit odit architecto tenetur voluptate adipisci ducimus.",
+        "images": "../assets/images/products/productsSite/lunapepielef1.PNG"
+
+
+    },
+    {
+        "index": 15,
+        "brand": "Marginini de Ziua",
+        "title": "T-shirt Margini de Ziua",
+        "price": 40,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit pariatur adipisci asperiores ullam, aliquid sunt reiciendis fuga debitis quaerat provident illum, maxime a unde necessitatibus vitae autem placeat nostrum fugiat vero. Pariatur corporis doloribus quas eum libero, iure sed iusto? Voluptates rem impedit odit architecto tenetur voluptate adipisci ducimus.",
+        "images": "../assets/images/products/productsSite/margini-de-ziua1.PNG"
+
+
+    },
+    {
+        "index": 16,
+        "brand": "Moon",
+        "title": "T-shirt Moon for women",
+        "price": 40,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit pariatur adipisci asperiores ullam, aliquid sunt reiciendis fuga debitis quaerat provident illum, maxime a unde necessitatibus vitae autem placeat nostrum fugiat vero. Pariatur corporis doloribus quas eum libero, iure sed iusto? Voluptates rem impedit odit architecto tenetur voluptate adipisci ducimus.",
+        "images": "../assets/images/products/productsSite/moon1.PNG"
+
+
+    },
+    {
+        "index": 17,
+        "brand": "Luna pe Piele",
+        "title": "T-shirt Luna pe Piele",
+        "price": 40,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit pariatur adipisci asperiores ullam, aliquid sunt reiciendis fuga debitis quaerat provident illum, maxime a unde necessitatibus vitae autem placeat nostrum fugiat vero. Pariatur corporis doloribus quas eum libero, iure sed iusto? Voluptates rem impedit odit architecto tenetur voluptate adipisci ducimus.",
+        "images": "../assets/images/products/productsSite/MOONE1.PNG"
+
+
+    },
+    {
+        "index": 18,
+        "brand": "Moon",
+        "title": "T-shirt Moon",
+        "price": 40,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit pariatur adipisci asperiores ullam, aliquid sunt reiciendis fuga debitis quaerat provident illum, maxime a unde necessitatibus vitae autem placeat nostrum fugiat vero. Pariatur corporis doloribus quas eum libero, iure sed iusto? Voluptates rem impedit odit architecto tenetur voluptate adipisci ducimus.",
+        "images": "../assets/images/products/productsSite/MOONSUN1.jpeg"
+
+
+    },
+    {
+        "index": 19,
+        "brand": "Music",
+        "title": "T-shirt Music",
+        "price": 40,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit pariatur adipisci asperiores ullam, aliquid sunt reiciendis fuga debitis quaerat provident illum, maxime a unde necessitatibus vitae autem placeat nostrum fugiat vero. Pariatur corporis doloribus quas eum libero, iure sed iusto? Voluptates rem impedit odit architecto tenetur voluptate adipisci ducimus.",
+        "images": "../assets/images/products/productsSite/MUSIC1.jpeg"
+
+
+    },
+    {
+        "index": 20,
+        "brand": "Music",
+        "title": "T-shirt Music",
+        "price": 40,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit pariatur adipisci asperiores ullam, aliquid sunt reiciendis fuga debitis quaerat provident illum, maxime a unde necessitatibus vitae autem placeat nostrum fugiat vero. Pariatur corporis doloribus quas eum libero, iure sed iusto? Voluptates rem impedit odit architecto tenetur voluptate adipisci ducimus.",
+        "images": "../assets/images/products/productsSite/NOTE1.jpeg"
+
+
+    },
+    {
+        "index": 21,
+        "brand": "Piro",
+        "title": "Pyrographed wood with trees",
+        "price": 50,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit pariatur adipisci asperiores ullam, aliquid sunt reiciendis fuga debitis quaerat provident illum, maxime a unde necessitatibus vitae autem placeat nostrum fugiat vero. Pariatur corporis doloribus quas eum libero, iure sed iusto? Voluptates rem impedit odit architecto tenetur voluptate adipisci ducimus.",
+        "images": "../assets/images/products/productsSite/piro1.jpg"
+
+
+    },
+    {
+        "index": 22,
+        "brand": "Piro",
+        "title": "Pyrographed wood with moon",
+        "price": 50,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit pariatur adipisci asperiores ullam, aliquid sunt reiciendis fuga debitis quaerat provident illum, maxime a unde necessitatibus vitae autem placeat nostrum fugiat vero. Pariatur corporis doloribus quas eum libero, iure sed iusto? Voluptates rem impedit odit architecto tenetur voluptate adipisci ducimus.",
+        "images": "../assets/images/products/productsSite/pirogravuraluna1.jpg"
+
+
+    }
+
+]
