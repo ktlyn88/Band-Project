@@ -100,7 +100,7 @@ logOutBtn.addEventListener('click', () => {
 
 function register() {
     event.preventDefault();
-
+    
     const firstName = document.getElementById('firstN').value;
     const lastName = document.getElementById('lastN').value;
     const email = document.getElementById('eml').value;
